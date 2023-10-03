@@ -13,6 +13,7 @@ class SobreMim ():
 class Skills (SobreMim):
 
   def __init__(self, linguagens):
+
   self_.linguagens = linguagens (Python, C)
 ```
 ```js
