@@ -14,7 +14,7 @@ class Skills (SobreMim):
 
   def __init__(self, linguagens):
 
-    self_.linguagens = linguagens (Python, C, C++)
+    self_.linguagens = linguagens (Python, C, C++, Java)
 
 meu_nome = "Isabelle"
 minha_area = "Desenvolvimento de Sistemas"
