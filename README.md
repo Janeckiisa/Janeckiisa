@@ -1,25 +1,23 @@
 ```js
-import Desenvolvedor from Janeckiisa;
+class SobreMim:
 
-class sobreMim ():
+    def __init__(self, nome, area, trabalho, local):
+        self.nome = nome
+        self.area = area
+        self.trabalho = trabalho
+        self.local = local
 
-  def __init__ (self, nome, area, trabalho, local):
+class Skills(SobreMim):
 
-    self_.nome = nome
-    self_.area = area
-    self_.trabalho = trabalho
-    self_.local = local
-
-class Skills (SobreMim):
-
-  def __init__(self, linguagens):
-
-    self_.linguagens = linguagens (Python, C, C++, Java, SQL)
+    def __init__(self, nome, area, trabalho, local, linguagens):
+        super().__init__(nome, area, trabalho, local)
+        self.linguagens = linguagens
 
 meu_nome = "Isabelle"
 minha_area = "Desenvolvimento de Sistemas"
 meu_trabalho = "Robert Bosch"
 meu_pais = "Brazil"
+minhas_linguagens = ["Python", "C", "C++", "Java", "SQL", "Web"]
 
-dev1 = sobreMim(meu_nome, minha_area, meu_trabalho, meu_pais)
+dev1 = Skills(meu_nome, minha_area, meu_trabalho, meu_pais, minhas_linguagens)
 ```
