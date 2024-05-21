@@ -17,7 +17,7 @@ meu_nome = "Isabelle"
 minha_area = "Desenvolvimento de Sistemas"
 meu_trabalho = "Robert Bosch"
 meu_pais = "Brazil"
-minhas_linguagens = ["Python", "C", "C++", "Java", "SQL", "Web"]
+minhas_linguagens = ["Python", "C", "C++", "Java", "SQL", "Web", "C#"]
 
 dev1 = Skills(meu_nome, minha_area, meu_trabalho, meu_pais, minhas_linguagens)
 ```
