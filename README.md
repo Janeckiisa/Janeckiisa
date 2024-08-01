@@ -25,3 +25,4 @@ Eu = Skills(meu_nome, minha_area, meu_trabalho, meu_pais, minhas_linguagens)
 <img height=145px align="left" src="https://github-readme-stats.vercel.app/api?username=janeckiisa&show_icons=true&theme=onedark&hide_border=true" />
   <img height=145px align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=janeckiisa&layout=compact&theme=gruvbox_light&hide_border=true" />
   <div style="display: flex; flex-direction: column; justify-content: space-between; height: 145; width: fit-content;">
+  <img src="https://cdn.custom-cursor.com/packs/3886/medium/hanako-kun-mokke-and-candy-cursor-pack.png"/>
