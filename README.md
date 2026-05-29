@@ -1,25 +1,23 @@
 ```js
 class SobreMim:
 
-    def __init__(self, nome, area, trabalho, local):
+    def __init__(self, nome, area, local):
         self.nome = nome
         self.area = area
-        self.trabalho = trabalho
         self.local = local
 
 class Skills(SobreMim):
 
-    def __init__(self, nome, area, trabalho, local, linguagens):
-        super().__init__(nome, area, trabalho, local)
+    def __init__(self, nome, area, local, linguagens):
+        super().__init__(nome, area, local)
         self.linguagens = linguagens
 
 meu_nome = "Isabelle"
 minha_area = "Desenvolvimento de Sistemas"
-meu_trabalho = "Robert Bosch"
 meu_pais = "Brazil"
 minhas_linguagens = ["Python", "C", "C++", "Java", "SQL", "Web", "C#"]
 
-Eu = Skills(meu_nome, minha_area, meu_trabalho, meu_pais, minhas_linguagens)
+Eu = Skills(meu_nome, minha_area, meu_pais, minhas_linguagens)
 ```
 
 <img height=145px align="left" src="https://github-readme-stats.vercel.app/api?username=janeckiisa&show_icons=true&theme=onedark&hide_border=true" />
