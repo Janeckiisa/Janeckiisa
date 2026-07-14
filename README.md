@@ -1,26 +1,47 @@
+## Olá, sou a Isabelle 👋
+
+Desenvolvedora de Software com experiência em desenvolvimento full-stack, integração de APIs e digitalização de processos. Atualmente cursando Engenharia de Software e construindo projetos com JavaScript, Node.js e MongoDB.
+
+---
+
 ```js
-class SobreMim:
+class Developer {
+  constructor() {
+    this.name = "Isabelle Janecki";
+    this.area = "Full-stack Development";
+    this.location = "São José dos Pinhais, PR — Brazil";
+    this.stack = {
+      frontend: ["HTML5", "CSS3", "JavaScript (ES Modules)", "SPA", "Fetch API"],
+      backend:  ["Node.js", "Express", "JWT", "REST API"],
+      database: ["MongoDB", "MySQL", "SQL Server"],
+      tools:    ["Git", "OutSystems"],
+    };
+    this.languages = ["JavaScript", "Java", "Python"];
+    this.education = "B.Sc. Software Engineering — UniSenai (2027)";
+  }
+}
 
-    def __init__(self, nome, area, local):
-        self.nome = nome
-        self.area = area
-        self.local = local
-
-class Skills(SobreMim):
-
-    def __init__(self, nome, area, local, linguagens):
-        super().__init__(nome, area, local)
-        self.linguagens = linguagens
-
-meu_nome = "Isabelle"
-minha_area = "Desenvolvimento de Sistemas"
-meu_pais = "Brazil"
-minhas_linguagens = ["Python", "C", "C++", "Java", "SQL", "Web", "C#"]
-
-Eu = Skills(meu_nome, minha_area, meu_pais, minhas_linguagens)
+const isabelle = new Developer();
 ```
 
-<img height=145px align="left" src="https://github-readme-stats.vercel.app/api?username=janeckiisa&show_icons=true&theme=onedark&hide_border=true" />
-  <img height=145px align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=janeckiisa&layout=compact&theme=gruvbox_light&hide_border=true" />
-  <div style="display: flex; flex-direction: column; justify-content: space-between; height: 145; width: fit-content;">
-  <img src="https://cdn.custom-cursor.com/packs/3886/medium/hanako-kun-mokke-and-candy-cursor-pack.png" style="width: 20"/>
+---
+
+## Projetos
+
+### 🏗️ RibasApp
+Sistema de gerenciamento de frota industrial desenvolvido como projeto acadêmico.
+
+- **Front-end:** SPA em JavaScript puro com ES Modules, roteamento via hash e proteção de rotas por nível de acesso
+- **Back-end:** API REST com Node.js e Express, autenticação JWT e controle de acesso por role (Admin, Gestor, Operador)
+- **Banco:** Modelagem completa em MongoDB
+- **Extras:** Geração e download de QR Code para fichas de veículos
+- **Deploy:** Vercel (front) · Render (back)
+
+🔗 [Frontend](https://github.com/Janeckiisa/RibasApp) · [Backend](https://github.com/Janeckiisa/RibasApp-Backend) · [Demo](https://ribas-app-9cs4.vercel.app/)
+
+---
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Isabelle%20Janecki-blue?style=flat&logo=linkedin)](https://linkedin.com/in/isabelle-janecki-43944620a)
+[![Email](https://img.shields.io/badge/Email-janeckiisabelle%40gmail.com-red?style=flat&logo=gmail)](mailto:janeckiisabelle@gmail.com)
