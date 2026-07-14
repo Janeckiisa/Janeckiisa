@@ -37,7 +37,7 @@ Sistema de gerenciamento de frota industrial desenvolvido como projeto acadêmic
 - **Extras:** Geração e download de QR Code para fichas de veículos
 - **Deploy:** Vercel (front) · Render (back)
 
-🔗 [Frontend](https://github.com/Janeckiisa/RibasApp) · [Backend](https://github.com/Janeckiisa/RibasApp-Backend) · [Demo](https://ribas-app-9cs4.vercel.app/)
+🔗 [Frontend](https://github.com/Janeckiisa/RibasApp) · [Backend](https://github.com/Janeckiisa/RibasApp-Backend) · [Site](https://ribas-app-9cs4.vercel.app/)
 
 ---
 
