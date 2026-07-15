@@ -9,7 +9,7 @@ class Developer {
   constructor() {
     this.name = "Isabelle Janecki";
     this.area = "Full-stack Development";
-    this.location = "São José dos Pinhais, PR — Brazil";
+    this.location = "Brazil";
     this.stack = {
       frontend: ["HTML5", "CSS3", "JavaScript (ES Modules)", "SPA", "Fetch API"],
       backend:  ["Node.js", "Express", "JWT", "REST API"],
